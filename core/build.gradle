@@ -95,7 +95,7 @@ configurations.all {
 }
 
 dependencies {
-    baseline 'org.testcontainers:testcontainers:1.15.3', {
+    baseline 'org.testcontainers:testcontainers:1.17.4', {
         exclude group: "*", module: "*"
     }
 
